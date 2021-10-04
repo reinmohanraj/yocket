@@ -1,0 +1,34 @@
+.video-segement h2{
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 15px;
+}
+.link-div{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 75%;
+}
+
+.link-div input, .link-div select{
+    padding: 5px;
+    margin-top: 5px;
+}
+.process-video{
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: #e91e63;
+    cursor: pointer;
+}
+.process-video:disabled{
+    background-color: #f16d9a;
+}
+.video-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 15px;
+}

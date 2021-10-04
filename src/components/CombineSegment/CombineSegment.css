@@ -1,0 +1,53 @@
+.combine-segement{
+    margin-bottom: 50px;
+}
+.combine-segement h2{
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 15px;
+}
+.add-video{
+    margin-bottom: 50px;
+}
+.add-video, .delete-video{
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: #e91e63;
+    cursor: pointer;
+}
+.row-div{
+    display: flex;
+    margin-bottom: 20px;
+}
+.row-div > div{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.row-div .row-div-link input{
+    padding: 5px;
+    margin-top: 5px;
+    width: 90%;
+}
+.row-div .row-div-start input, .row-div .row-div-end input{
+    padding: 5px;
+    margin-top: 5px;
+    width: 60%;
+}
+.row-div .row-div-link{
+    width: 70%;
+}
+.row-div .row-div-start{
+    width: 10%;
+}
+.row-div .row-div-end{
+    width: 10%;
+}
+.row-div button{
+    width: 10%;
+    height: 100%;
+    margin-top: 1%;
+}
